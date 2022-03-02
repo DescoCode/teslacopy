@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.center{
+    width: auto;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+}
+section.main{
+    width: auto;
+    min-height: 100%;
+    background-image: url(img/tesla.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    position: fixed;
+    top: 20px;
+    margin-left: -900px;
+    margin-right: 210px;
+}
+.logo img{
+    max-width: 210px;
+}
+.menu{
+    margin-top: 15px;
+    font-size: 14px;
+    position: fixed;
+    width: auto;
+}
+.menu a{
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 4px 6px;
+}
+.menu a:hover{
+    border-radius: 10px;
+    background-color: rgba(170, 169, 172, 0.219);
+}
+.title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 23px;
+}
+.title h2{
+    color: black; font-size: 45px; letter-spacing: 1.2px;
+}
+.title p{
+    font-size: 16px;
+    color: rgb(19, 18, 18);
+    margin-top: 10px;
+}
+.title p a{
+    color: rgb(54, 53, 53);
+}
+.btn-menu{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+}
+.btn-menu a{
+    display: inline-block;
+    padding: 12px 65px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.setaScroll{
+    border: solid rgb(49, 49, 49); /* cor da seta */
+    border-width: 0 1px 1px 0; /* 5px = espessura da seta */
+    padding: 7px; /* tamanho da seta */
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transition: all infinite ease;
+    position: absolute;
+    top: 0;
+    left: 610px;
+    opacity: .3;
+    bottom: 200px;
+    transition: smooth;
+ }
+ .setaScrooll-div{
+    opacity: 1;
+    transition: opacity 1s ease-out;
+  }
+  
+  .SetaScrooll-div.hide{
+    opacity: 0; 
+    transition: opacity 1s ease-out;
+  }
+section.main1{
+    width: auto;
+    min-height: 100%;
+    background-image: url(img/modely.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn-menu1{
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: -620px;
+}
+.btn-menu1 a{
+    display: inline-block;
+    padding: 12px 65px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+section.main2{
+    width: auto;
+    min-height: 100%;
+    background-image: url(img/models.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn-menu2{
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: -1280px;
+}
+.btn-menu2 a{
+    display: inline-block;
+    padding: 12px 65px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+section.main3{
+    width: auto;
+    min-height: 100%;
+    background-image: url(img/modelx.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn-menu3{
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: -1940px;
+}
+.btn-menu3 a{
+    display: inline-block;
+    padding: 12px 65px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: transparent;
+    width: 100%;
+    position: center;
+    margin-bottom: -20px;
+}
+ footer p{
+   font-size: 14px;
+   text-align: center;
+   line-height: 135px;
+   color: #686767;
+  
+ }
